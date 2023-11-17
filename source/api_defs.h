@@ -4,7 +4,7 @@
 
 #include "api.h"
 
-inline std::vector<APIdef> g_apidefs =
+inline std::vector<APIdef> g_apidefs
 {
 	{ APIFUNC(API_HelloWorld), "void", "", "", "[API] Prints hello world to the ReaScript console.", },
 
