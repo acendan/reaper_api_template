@@ -1,0 +1,55 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.tlog
+*.idb
+*.pdb
+*.recipe
+*.exp
+*.ilk
+*.log
+debug/
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Ignore premake builds
+build/
+
+# REAPER
+*.rpp-undo
+*.rpp-bak
+*.wav
+*.mp3
+*.flac
+
+# Mac
+*.DS_Store
+*.plist
+**/*dSYM/
+
+# Linux
+.idea/
