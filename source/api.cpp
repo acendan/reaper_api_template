@@ -1,7 +1,8 @@
 // Aaron Cendan, 2023
 
-#include "api.h"
 #include "reaper_plugin_functions.h"
+
+#include "api.h"
 
 void API_HelloWorld()
 {
