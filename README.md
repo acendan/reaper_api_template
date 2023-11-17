@@ -39,6 +39,14 @@ _Yes, the extra set of "--" is necessary for passing git clone flags to gh..._
 - This will vary greatly depending on OS, but by using premake, you should be able to build and debug using the toolset provided by your given IDE.
 - There is a post build step that copies the generated library to your local **REAPER/UserPlugins** folder. You will need to have REAPER closed for this step to work, as the copy command will fail if the library is actively being used by REAPER.
 
+### MacOS Universal Binaries
+- Universal binaries run natively on both Apple Silicon (M-series chips) and Intel CPUs
+- Ensure you are building universal binaries in XCode by going to the project settings > Build Settings > Architectures > Standard Architectures (Apple Silicon, Intel)
+- After building, ensure that the built binary supports both x86_64 and arm64 by running the following command in a Terminal:
+```
+lipo -archs ./bin/macosx/release/reaper_api_template.dylib
+```
+
 ## GitHub Releases
 - Replace <0.1.0> in the following command with the new version tag for your release!
 ```
