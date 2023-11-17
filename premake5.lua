@@ -24,7 +24,7 @@ local users = {
 }
 local current_user = os.getenv("USERNAME") or os.getenv("USER")
 local settings = users[current_user]
-if not settings then error("No settings found for user: " .. current_user) end
+if not settings then error("No settings found for current user (" .. current_user .. ") in premake5.lua file!") end
 
 --Update the PROJECT_NAME, RUN_PATH, and PROGRAM_PARAMS variables in the .idea/workspace.xml file
 if _TARGET_OS == "linux" then
