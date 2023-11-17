@@ -19,7 +19,7 @@
 *.exp
 *.ilk
 *.log
-debug/
+**/debug/
 
 # Fortran module files
 *.mod
@@ -53,3 +53,6 @@ build/
 
 # Linux
 .idea/
+!.idea/tools/*.xml
+!.idea/customTargets.xml
+!.idea/workspace.xml

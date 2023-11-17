@@ -31,6 +31,10 @@ _Yes, the extra set of "--" is necessary for passing git clone flags to gh..._
     
 - If all goes well, you should be able to find and open the generated project file in the **reaper_api_template/build** folder!
 
+### CLion Projects
+- If using CLion, the .idea folder at the root of this repo is set up to build Debug and Release configs
+- Prior to opening in CLion, simply open the `.idea/workspace.xml` file and update the `PROJECT_NAME`, `RUN_PATH`, and `PROGRAM_PARAMS` variables accordingly
+
 ## Building & Debugging
 - This will vary greatly depending on OS, but by using premake, you should be able to build and debug using the toolset provided by your given IDE.
 - There is a post build step that copies the generated library to your local **REAPER/UserPlugins** folder. You will need to have REAPER closed for this step to work, as the copy command will fail if the library is actively being used by REAPER.

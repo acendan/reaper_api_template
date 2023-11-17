@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="b5c5a2ca-0c51-468f-9856-59e3bfae9879" name="Debug" defaultType="TOOL">
+      <configuration id="7d8d8e0d-aaa4-4242-933d-dc4132e9aa8f" name="Debug">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Debug" />
+        </build>
+      </configuration>
+    </target>
+    <target id="6c5718da-9b8f-4110-9116-e55e583b72ae" name="Release" defaultType="TOOL">
+      <configuration id="55bc34fe-232e-4b93-92e9-a2d6041d50c5" name="Release">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_Release" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>
