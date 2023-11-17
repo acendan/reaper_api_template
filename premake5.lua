@@ -15,6 +15,11 @@ local users = {
 	["acendan"] = {
 		user_plugins_dir = "/home/acendan/.config/REAPER/UserPlugins",
 		reaper = "/home/acendan/opt/REAPER/reaper"
+	},
+	-- Mac
+	["acendanmac"] = {
+		user_plugins_dir = "/Users/acendanmac/Library/Application\\ Support/REAPER/UserPlugins",
+		reaper = "/Applications/REAPER.app"
 	}
 }
 local current_user = os.getenv("USERNAME") or os.getenv("USER")
