@@ -33,7 +33,7 @@ _Yes, the extra set of "--" is necessary for passing git clone flags to gh..._
 
 ### CLion Projects
 - If using CLion, the .idea folder at the root of this repo is set up to build Debug and Release configs
-- Prior to opening in CLion, simply open the `.idea/workspace.xml` file and update the `PROJECT_NAME`, `RUN_PATH`, and `PROGRAM_PARAMS` variables accordingly
+- When running `premake5 gmake2` on Linux, the script should automatically update the `.idea/workspace.xml` file's `PROJECT_NAME`, `RUN_PATH`, and `PROGRAM_PARAMS` variables accordingly
 
 ## Building & Debugging
 - This will vary greatly depending on OS, but by using premake, you should be able to build and debug using the toolset provided by your given IDE.
