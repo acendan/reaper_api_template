@@ -14,7 +14,12 @@ inline std::vector<APIdef> g_apidefs =
 
 #pragma once
 
-#include <stdio.h>
+#ifdef __linux__
+#undef max
+#undef min
+#endif
+
+#include <cstdio>
 #include <vector>
 
 #include "reaper_plugin.h"
