@@ -53,6 +53,3 @@ build/
 
 # Linux
 .idea/
-!.idea/tools/*.xml
-!.idea/customTargets.xml
-!.idea/workspace.xml
